@@ -1,6 +1,6 @@
 /* groovylint-disable-next-line CompileStatic */
 pipeline {
-      agent none
+      agent any
 
       environment {
                   dotnet = 'C:\\Program Files\\dotnet\\dotnet.exe'

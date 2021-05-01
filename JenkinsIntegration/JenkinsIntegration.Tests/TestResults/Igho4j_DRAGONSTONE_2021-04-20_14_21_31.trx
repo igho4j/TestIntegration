@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="25267f59-98d8-41ed-8dcd-fea2b27ea660" name="Igho4j@DRAGONSTONE 2021-04-20 14:21:31" runUser="DRAGONSTONE\Igho4j" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-04-20T14:21:31.3834404+01:00" queuing="2021-04-20T14:21:31.3834411+01:00" start="2021-04-20T14:21:30.4400399+01:00" finish="2021-04-20T14:21:31.3923889+01:00" />
+  <TestSettings name="default" id="5308b4cc-f142-4c8d-9c35-991c2c25b231">
+    <Deployment runDeploymentRoot="Igho4j_DRAGONSTONE_2021-04-20_14_21_31" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4a29b9c6-0f4a-4459-8e7e-6258a6a90d73" testId="ac95cb08-7ad1-4d5b-90ec-132670c18038" testName="TestMethod1" computerName="DRAGONSTONE" duration="00:00:00.0102988" startTime="2021-04-20T14:21:31.1326431+01:00" endTime="2021-04-20T14:21:31.1868141+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a29b9c6-0f4a-4459-8e7e-6258a6a90d73" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\igho4j\documents\devops\gitlab_repos_74\getting-started-with-jenkins\jenkinsintegration\jenkinsintegration.tests\bin\debug\netcoreapp2.1\jenkinsintegration.tests.dll" id="ac95cb08-7ad1-4d5b-90ec-132670c18038">
+      <Execution id="4a29b9c6-0f4a-4459-8e7e-6258a6a90d73" />
+      <TestMethod codeBase="C:\Users\Igho4j\Documents\DevOps\GITLAB_REPOS_74\Getting-Started-With-Jenkins\JenkinsIntegration\JenkinsIntegration.Tests\bin\Debug\netcoreapp2.1\JenkinsIntegration.Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="JenkinsIntegration.Tests.JenkinsTests" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="ac95cb08-7ad1-4d5b-90ec-132670c18038" executionId="4a29b9c6-0f4a-4459-8e7e-6258a6a90d73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

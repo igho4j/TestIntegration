@@ -1,6 +1,6 @@
 /* groovylint-disable-next-line CompileStatic */
 pipeline {
-      agent any
+      agent { node { label 'AWS_Windows' } }
 
       environment {
                   dotnet = 'C:\\Program Files\\dotnet\\dotnet.exe'
